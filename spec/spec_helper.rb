@@ -8,7 +8,7 @@ SimpleCov.formatters = [
 ]
 Coveralls.wear!
 
-ENV['RACK_ENV'] = 'development'
+ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', 'app/chitter.rb')
 
